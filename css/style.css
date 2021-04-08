@@ -1,17 +1,47 @@
+/* ==========
+   Layout 
+   ========== */
+   
+/* ==========
+   Components 
+   ========== */
+   
+/* ==========
+   Global Styles 
+   ========== */
+   
+body{
+    margin: 0;
+}
+
+/* ==========
+   Typography 
+   ========== */
+   
+
+
+
+
 a {
     font-size: 14px;
     text-decoration: none;
     color: gray;
 }
+span{
+    display:inline;
+    border: 1px cyan;
+}
 div{
     border: solid 3px orange;
     /*height:10px;*/
+}
+.btn{
+    background-color: lightgray;
 }
 #signin{
     background-color: #4683ea;
     color: white;
     font-weight: 700;
-    /*padding: 8px 10px 8px 10px;*/
     border-radius: 2px;
     height: 28px;
     width: 70px;
@@ -19,32 +49,49 @@ div{
     font-size:13px;
     text-align: center;
     vertical-align: middle;
-    /*align-content: center;*/
-    /*float:right;*/
     
 }
 #div-header{
-    display:block;
+    display:inline;
 }
 #div-header-left{
-    /*display:inline-block;*/
     border: solid 1px;
-    /*text-align: left;*/
+    position: relative;
     float: left;
 
 }#div-header-right{
     /*display:inline-block;*/
     border: solid 1px;
-    text-align: right;
+    /*text-align: right;*/
+    position: relative;
+    float:right;
+}}#div-header-right2{
+    display:inline;
+    border: solid 1px;
+    /*text-align: right;*/
     position: relative;
     float:right;
 }
 #div-footer{
     border: solid 1px;
     display:block;
-    padding:18px;
+    margin:18px;
  background-color: rgb(242, 247, 246);
 }
+#div-footer-left{
+    /*display:inline-block;*/
+    border: solid 1px;
+    /*text-align: left;*/
+    float: left;
+
+}#div-footer-right{
+    /*display:inline-block;*/
+    border: solid 1px;
+    text-align: right;
+    position: relative;
+    float:right;
+}
+
 #google-image{
     border: solid 1px;
     display:block;
@@ -54,16 +101,38 @@ div{
 }
 
 #about{
-    padding: 0px;
+    margin: 0px;
 }#store{
-    padding: 0 0 0 20px;
+    margin: 0 80px 0 20px;
 }
 #gmail{
-    padding: 0px;
+    margin: 0px;
 }
+
 #images{
-    padding: 0 0 0 20px;
+    margin: 0 0 0 20px;
+}
+
+#advertising{
+    margin: 0 0 0 20px;
+}
+
+#business{
+    margin: 0 0 0 20px;
+}
+
+#how{
+    margin: 0 0 0 20px;
+}
+
+#privacy{
+    margin: 0 0 0 20px;
+}
+
+#settings{
+    margin: 0 0 0 20px;
 }
 #google-apps{
-    padding: 0 20px 0 20px;
+    margin: 300px 30px 30px 20px;
+    position:relative;
 }
