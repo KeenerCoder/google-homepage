@@ -1,0 +1,69 @@
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+}
+div{
+    border: solid 3px orange;
+    /*height:10px;*/
+}
+#signin{
+    background-color: #4683ea;
+    color: white;
+    font-weight: 700;
+    /*padding: 8px 10px 8px 10px;*/
+    border-radius: 2px;
+    height: 28px;
+    width: 70px;
+    border: 1px solid #4284f4;
+    font-size:13px;
+    text-align: center;
+    vertical-align: middle;
+    /*align-content: center;*/
+    /*float:right;*/
+    
+}
+#div-header{
+    display:block;
+}
+#div-header-left{
+    /*display:inline-block;*/
+    border: solid 1px;
+    /*text-align: left;*/
+    float: left;
+
+}#div-header-right{
+    /*display:inline-block;*/
+    border: solid 1px;
+    text-align: right;
+    position: relative;
+    float:right;
+}
+#div-footer{
+    border: solid 1px;
+    display:block;
+    padding:18px;
+ background-color: rgb(242, 247, 246);
+}
+#google-image{
+    border: solid 1px;
+    display:block;
+    text-align: center;
+    /*vertical-align: middle;*/
+
+}
+
+#about{
+    padding: 0px;
+}#store{
+    padding: 0 0 0 20px;
+}
+#gmail{
+    padding: 0px;
+}
+#images{
+    padding: 0 0 0 20px;
+}
+#google-apps{
+    padding: 0 20px 0 20px;
+}
