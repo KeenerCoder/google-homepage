@@ -32,8 +32,7 @@ span{
     border: 1px cyan;
 }
 div{
-    border: solid 3px orange;
-    /*height:10px;*/
+    border: solid 1px orange;
 }
 .btn{
     background-color: lightgray;
@@ -47,12 +46,14 @@ div{
     width: 70px;
     border: 1px solid #4284f4;
     font-size:13px;
-    text-align: center;
+    /*text-align: center;*/
     vertical-align: middle;
     
 }
 #div-header{
-    display:inline;
+    /*display:inline;*/
+    display: inline-flexbox;
+    
 }
 #div-header-left{
     border: solid 1px;
@@ -73,7 +74,7 @@ div{
     float:right;
 }
 #div-footer{
-    border: solid 1px;
+    border: solid 1px purple;
     display:block;
     margin:18px;
  background-color: rgb(242, 247, 246);
@@ -129,10 +130,40 @@ div{
     margin: 0 0 0 20px;
 }
 
+#terms{
+    margin: 0 20px 0 20px;
+}
+
 #settings{
     margin: 0 0 0 20px;
 }
 #google-apps{
     margin: 300px 30px 30px 20px;
     position:relative;
+}
+#google-image
+{
+   margin: 5% 0 0 40%;
+   
+    
+}
+@media screen and (min-height: 200px){
+    #google-image{
+        
+        margin-top: 10px;
+    }
+}
+#search-text{
+    width: 500px;
+    height: 40px;
+    border-radius: 14px;
+    border-color: red;
+    border-bottom-color:lime;
+    border-bottom: 0px;
+    /*border-left: 0px;
+    left: 150px;*/
+}
+#search-magnify-glass
+{
+    border: 1px purple;
 }
