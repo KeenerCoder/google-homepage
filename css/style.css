@@ -55,18 +55,18 @@ div{
     display: inline-flexbox;
     
 }
-#div-header-left{
+#header-left{
     border: solid 1px;
     position: relative;
     float: left;
 
-}#div-header-right{
+}#header-right{
     /*display:inline-block;*/
     border: solid 1px;
     /*text-align: right;*/
     position: relative;
     float:right;
-}}#div-header-right2{
+}}#header-right2{
     display:inline;
     border: solid 1px;
     /*text-align: right;*/
@@ -79,13 +79,13 @@ div{
     margin:18px;
  background-color: rgb(242, 247, 246);
 }
-#div-footer-left{
+#footer-left{
     /*display:inline-block;*/
     border: solid 1px;
     /*text-align: left;*/
     float: left;
 
-}#div-footer-right{
+}#footer-right{
     /*display:inline-block;*/
     border: solid 1px;
     text-align: right;
